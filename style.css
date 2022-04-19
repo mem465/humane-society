@@ -122,6 +122,26 @@ body {
 	.btn:hover{
 		background-color: #E0A455;
 	}
+
+
+	.button {
+		width: 130px;
+		padding: 10px 20px;
+		margin-top: 20px;
+		margin-left: 85px;
+		background-color: #4E6172;
+		font-size: 15px;
+		text-align: center;
+		border-radius:25px;
+		text-decoration: none;
+		cursor: pointer;
+		color: #E7E8E8;
+	}
+	.button:hover{
+		background-color: #E0A455;
+	}
+
+	
 	
 	
 	header {
@@ -308,6 +328,16 @@ body {
 	.sec-8 {
 		margin-top: 250px;
 	}
+
+	.sec-9 {
+		margin-top: 100px;
+		margin-bottom: 150px;
+		align-content: center;
+	}
+	.sec-9 img {
+		height: 100%;
+	}
+
 
 	.footer {
 		width: 100%;
