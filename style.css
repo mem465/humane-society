@@ -79,7 +79,8 @@ body {
 	}
 	
 	h4 {
-		font-size: 1em;
+		font-size: 1.3em;
+		line-height: 40px;
 		color: #4E6172;
 		text-align: center;
 		margin: 15px 0;
@@ -107,7 +108,7 @@ body {
 	}
 
 	.btn{
-		width: 150px;
+		width: 130px;
 		padding: 2px 20px;
 		margin-top: 20px;
 		background-color: #4E6172;
@@ -226,7 +227,7 @@ body {
 
 	.sec-3 {
 		margin-top: 100px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 		
 	}
 
@@ -250,14 +251,26 @@ body {
 
 	.sec-4 {
 		width: auto;
+		padding-top: 70px;
 		margin-bottom: 2px;
+		background-color:#EAD3CA;
 	}
 	.sec-4 img {
 		padding-bottom: 20px;
 		width: 90%;
 	}
 
+	.sec-4 p {
+		line-height: 40px;
+	}
 
+	.video {
+		align-items: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-left: 250px;
+
+	}
 
 	.sec-5 {
 		margin-top: 50px;
@@ -280,6 +293,21 @@ body {
 		width: 90%;
 	}
 	
+	.sec-7 form {
+		justify-content: center;
+		background: white;
+		width: 300px;
+		margin: auto;
+		padding: 30px;
+		border-radius: 15px; 
+	}
+	.sec-7 form input{
+		padding: 5px;
+		justify-content: center;
+	}
+	.sec-8 {
+		margin-top: 250px;
+	}
 
 	.footer {
 		width: 100%;
