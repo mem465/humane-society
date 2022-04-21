@@ -15,9 +15,7 @@ html {
 
 
 body {
-	font-size: 100%;
 	line-height: 2em;
-	text-align: left;
 }
 
 
@@ -25,7 +23,18 @@ body {
 	width: 960px;
 	display: block;
 	margin: 0 auto;
-	overflow:hidden;
+	overflow: hidden;
+}
+
+.donation {
+	width: 500px;
+}
+
+.trophy-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }
 
 	.columns_1 {
@@ -73,6 +82,7 @@ body {
 	h3 {
 		font-size: 2em;
 		margin: 10px 0 15px 0;
+		line-height: 40px;
 		color:#B94214;
 		text-align: center;
 		font-family: Arial Black;
@@ -127,8 +137,6 @@ body {
 	.button {
 		width: 130px;
 		padding: 10px 20px;
-		margin-top: 20px;
-		margin-left: 85px;
 		background-color: #4E6172;
 		font-size: 15px;
 		text-align: center;
@@ -136,9 +144,15 @@ body {
 		text-decoration: none;
 		cursor: pointer;
 		color: #E7E8E8;
+		display: block;
+		margin: 0 auto;
 	}
 	.button:hover{
 		background-color: #E0A455;
+	}
+
+	.top-margin-btn {
+		margin-top: 15px;
 	}
 
 	
@@ -185,22 +199,15 @@ body {
 		cursor: pointer;
 	}
 	
-	nav li a:link {
+	nav li a:link, nav li a:visited {
 		font-family: 'Poppins';
 		color: #DBCA69;
 		text-decoration: none;
 	}
+
 	
-	nav li a:visted {
-		color: #4E6172;
-	}
-	
-	nav li a:hover {
-		color:#E5D891;
-	}
-	
-	nav li a:active {
-		color: #4E6172;
+	nav li a:active, nav li a:hover  {
+		color: #ffffff;
 	}
 	
 	img{
@@ -259,11 +266,12 @@ body {
 
 	.long-box {
 		background-color: #B94214;
-		padding: 5px;
+		padding:15px;
 		text-align: center;
 		margin-top: 3px;
 		margin-bottom: 3px;
-		margin-right: 10px;
+		margin-left: 90px;
+		width: 550px;
 	}
 	.box {
 		justify-content: center;
@@ -312,19 +320,9 @@ body {
 		padding: 5px;
 		width: 90%;
 	}
-	
-	.sec-7 form {
-		justify-content: center;
-		background: white;
-		width: 300px;
-		margin: auto;
-		padding: 30px;
-		border-radius: 15px; 
-	}
-	.sec-7 form input{
-		padding: 5px;
-		justify-content: center;
-	}
+
+
+
 	.sec-8 {
 		margin-top: 250px;
 	}
@@ -337,6 +335,15 @@ body {
 	.sec-9 img {
 		height: 100%;
 	}
+
+	.sec-10 {
+		margin-top: 150px;
+	}
+	.sec-10-copy {
+		margin-top: 15px;
+		align-items: center;
+	}
+
 
 
 	.footer {
