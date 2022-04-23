@@ -28,6 +28,8 @@ body {
 
 .donation {
 	width: 500px;
+	align-content: center;
+	margin-bottom: 40px;
 }
 
 .trophy-container {
@@ -72,7 +74,7 @@ body {
 	}
 	
 	h2 {
-		font-size: 3.5em;
+		font-size: 3.2em;
 		margin: 10px 0 20px 0;
 		color: #B94214;
 		font-family: Arial Black;
@@ -117,27 +119,30 @@ body {
 		color: #000;
 	}
 
-	.btn{
+	.btn {
 		width: 130px;
-		padding: 2px 20px;
+		padding: 5px;
+		justify-content: center;
 		margin-top: 20px;
 		background-color: #4E6172;
-		font-size: 15px;
+		font-size: 17px;
 		text-align: center;
 		border-radius:25px;
 		text-decoration: none;
 		cursor: pointer;
 		color: #E7E8E8;
+		font-family: 'Poppins';
 	}
-	.btn:hover{
+	.btn:hover {
 		background-color: #E0A455;
 	}
 
 
 	.button {
 		width: 130px;
-		padding: 10px 20px;
+		padding: 5px 20px;
 		background-color: #4E6172;
+		font-family: 'Poppins';
 		font-size: 15px;
 		text-align: center;
 		border-radius:25px;
@@ -155,9 +160,7 @@ body {
 		margin-top: 15px;
 	}
 
-	
-	
-	
+		
 	header {
 		width: 100%;
 		background-color: #7A5A2F;
@@ -249,6 +252,7 @@ body {
 		width:auto;
 		background-repeat: no-repeat;
 		padding: 0 0 20px 0;
+		margin-top: 40px;
 		margin-bottom: 40px;	
 	}
 
@@ -270,22 +274,29 @@ body {
 		text-align: center;
 		margin-top: 3px;
 		margin-bottom: 3px;
-		margin-left: 90px;
-		width: 550px;
+		margin-left: 360px;
+		width: 500px;
+		
 	}
 	.box {
-		justify-content: center;
+		display: flex;
+		margin-bottom: 30px;
 	}
+
 
 	.sec-4 {
 		width: auto;
-		padding-top: 70px;
+		padding-top: 30px;
 		margin-bottom: 2px;
 		background-color:#EAD3CA;
 	}
 	.sec-4 img {
 		padding-bottom: 20px;
 		width: 90%;
+	}
+	.sec-4 h2 {
+		line-height: 60px;
+		text-align: left;
 	}
 
 	.sec-4 p {
@@ -295,36 +306,75 @@ body {
 	.video {
 		align-items: center;
 		margin-top: 50px;
-		margin-bottom: 50px;
-		padding-left: 250px;
+		margin-bottom: 40px;
+		margin-left: 350px;
 
 	}
 
 	.sec-5 {
-		margin-top: 50px;
-	}
+		margin-top: 70px;
+		margin-bottom: 50px;
+		}
 
 	.sec-6 {
 		background-color: #DBCA69;
-		margin: 100px;
-		width: 80%;
+		margin-left: 200px;
+		width: 70%;
 	}
-
+	.sec-6 img {
+		padding-top: 15px;
+	}
+	
+	.sec-7 {
+		margin-top: 80px;
+	}
+	
 	form {
 		padding: 30px;
 		margin-top: 50px;
 		border-radius: 15px;
+		font-family: 'Poppins';
 	}
 
 	form input {
-		padding: 5px;
+		padding: 15px;
 		width: 90%;
+		font-family: 'Poppins';
+	}
+	
+	.sec-7 form {
+		font-family: 'Poppins';
+		padding: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-radius: 15px;
+		width: 75%;
+	
+	}
+	.sec-7 input {
+		margin-bottom: 15px;
+		margin-left: 330px;
+		padding: 8px;
+		width: 30%;
+	}
+	.sec-7 label {
+		font-family: 'Poppins';
+		margin-right: 8px;
+		margin-left: 450px;
+	}
+	.form-2 {
+		font-family: 'Poppins';
+		margin-top: 20px;
+		margin-bottom: 80px;
+		margin-left: 620px;
+		gap:30px;
+	}
+	.form-2 .btn {
+		margin-left: 30px;
 	}
 
-
-
 	.sec-8 {
-		margin-top: 250px;
+		margin-top: 400px;
 	}
 
 	.sec-9 {
