@@ -242,6 +242,44 @@ body {
 		background-size: 100%;
 		position: relative;
 	}
+
+	.hero-lion {
+		background: url(images/dead-lion.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom center;
+	}
+
+	.hero-elephants {
+		background: url(images/elephants.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.hero-dead-elephant {
+		background: url(images/dead\ elephant.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.hero-lion-family {
+		background: url(images/lion\ family.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.hero-wolf {
+		background: url(images/wolf-germany.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left;
+	}
+
+
+
 	.title {
 		position: absolute;
 		bottom: 200px;
@@ -252,7 +290,7 @@ body {
 		width:auto;
 		background-repeat: no-repeat;
 		padding: 0 0 20px 0;
-		margin-top: 120px;
+		margin-top: 90px;
 		margin-bottom: 40px;	
 	}
 
@@ -374,7 +412,7 @@ body {
 	}
 
 	.sec-8 {
-		margin-top: 140px;
+		margin-top: 90px;
 	}
 	.sec-8 h4 {
 		margin-top: 50px;
